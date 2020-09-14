@@ -1,0 +1,46 @@
+.card {
+  background: whitesmoke;
+  width: 15%;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 2%;
+  box-shadow: 10px 10px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.card li{
+  list-style: none;
+  color:purple;
+  font-family: 'Lobster Two', cursive;
+  font-weight:bold;
+  margin:5px , 20px;
+}
+
+input{
+  width: 15%;
+  height: 10px;
+  border-radius: 25px;
+  padding: 2%;
+  margin-top:20px;
+  margin-bottom: 20px;
+  background: whitesmoke;
+  color:purple;
+  font-family: 'Lobster Two', cursive;
+  font-weight:bold;
+
+
+}
+@media only screen and (max-width: 768px){
+  .card{
+    font-size: 15px;
+    height:70px;
+    text-align:center;
+
+
+  }
+
+  
+}

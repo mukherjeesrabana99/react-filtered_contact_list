@@ -1,6 +1,28 @@
+#root, html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
 .App {
+  height:auto;
+  background-image:url('contact.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
+h3{
+  color:purple;
+  font-family: 'Lobster Two', cursive;
+  font-weight:bold;
+  font-size:1.6rem;
+  
+}
+
 
 .App-logo {
   height: 40vmin;
